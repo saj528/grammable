@@ -25,6 +25,8 @@ gem 'simple_form'
 gem 'devise'
 gem 'factory_bot_rails'
 gem 'carrierwave'
+gem 'figaro'
+gem 'fog-aws'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
