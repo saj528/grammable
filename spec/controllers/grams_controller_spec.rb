@@ -126,7 +126,7 @@ RSpec.describe GramsController, type: :controller do
   end
 
   describe "grams#new action" do
-    it "should successfully show the new form" do
+    it "should require users to be logged in" do
       get :new
       expect(response).to redirect_to new_user_session_path
     end
